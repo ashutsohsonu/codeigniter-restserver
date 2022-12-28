@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
 INSERT INTO `orders` (`id`, `user_id`, `amt`, `item_name`, `scheduled_pickup`) VALUES
 	(1, 1, 78, 'test', '2023-01-01'),
-	(2, 1, 78, 'test', '2023-01-01');
+	(2, 1, 78, 'test-2', '2023-01-01');
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 
 -- Dumping structure for table test_for_php.users
@@ -46,16 +46,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` (`id`, `name`, `mail`) VALUES
 	(1, 'onu', 'sonu@dd.com'),
-	(3, 'ashutosh', 'ashu@gg.com'),
-	(4, 'ashutosh', 'ashu@gg.com'),
-	(5, '', 'ashu@gg.com'),
-	(6, '', 'ashu@gg.com'),
-	(7, '', 'ashu@gg.com'),
-	(8, 'aa', 'ashu@gg.com'),
-	(9, 'aa', 'ashu@gg.com'),
-	(10, 'aa', 'ashu@gg.com'),
-	(11, 'aa', 'ashu@gg.com'),
-	(12, 'aa', 'ashu@gg.com');
+	(3, 'ashutosh', 'ashu@gg.com');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
