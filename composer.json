@@ -1,17 +1,22 @@
 {
-    "name": "chriskacerguis/codeigniter-restserver",
-    "description": "CI Rest Server",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"authors": [
         {
             "name": "Chris Kacerguis",
             "email": "chriskacerguis@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {"chriskacerguis\\RestServer\\": "src/"}
-    },
-    "require": {}
+    "minimum-stability": "dev",	
+	"require": {
+		"php": ">=5.3.7"
+	},	
+	
+	"require-dev": {
+		"mikey179/vfsstream": "1.6.*",
+		"phpunit/phpunit": "4.* || 5.* || 9.*"
+	}
 }
